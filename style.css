@@ -1,0 +1,97 @@
+body{
+    color: white;
+    background-color: #261c11;
+    
+
+}
+
+
+nav{
+    flex-direction: row;
+    display: flex;
+    font-family: Arial;
+    padding: 20px 10%;
+    
+
+}
+.logo{
+    text-align: center;
+    flex: 1;
+    font-size: 25px;
+    background:url("https://Image.image.png")
+    justify-content: center; 
+    display: flex;
+    padding: 10px 20px;
+    height: 100px;
+}
+.logo span{
+    color: chocolate;
+}
+.btn-nav{
+    color: white;
+    background-color: chocolate;
+    border-radius: 10px;
+    height: 50px;
+
+
+}
+
+.nav-liens{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    
+}
+
+.nav-liens a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.sous-titre{
+    height: 5px;
+    weight: 100px;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: rgb(205, 205, 188);
+
+}
+h1{
+    font-size: 4.5rem;
+    font-weight: 800;
+    color: beige;
+
+}
+.description{
+    color: rgb(172, 172, 155);
+}
+
+ul{
+    flex: 2;
+    display: flex;
+}
+.hero{
+    text-align: center;
+}
+.hero{
+    text-align: left;
+}
+
+
+.p{
+    
+    text-align: left;
+}
+.stats {
+    display: flex;                  /* éléments en ligne */
+    justify-content: space-around;  /* espaces égaux entre chaque */
+    list-style: none;               /* enlève les puces */
+}
+
+.stats li {
+    display: flex;
+    flex-direction: column;  /* nombre AU DESSUS, texte EN DESSOUS */
+    align-items: center;     /* centré horizontalement */
+}
