@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LUXE</title>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background:blueviolet;
+
+    color:black;
+}
+/* ===== NAVBAR ===== */
+header{
+    position:absolute;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:25px 60px;
+    z-index:10;
+}
+.logo{
+    font-size:22px;
+    font-weight:bold;
+    letter-spacing:2px;
+}
+nav a{
+    margin-left:30px;
+    text-decoration:none;
+    color:white;
+    font-size:14px;
+}
+.hero{
+    height:100vh;
+    background-image: url(image/image.png)
+    center/cover no-repeat;
+    display:flex;
+    align-items:center;
+    padding-left:80px;
+}
+.hero-content{
+    max-width:600px;
+}
+.hero h1{
+    font-size:60px;
+    line-height:1.2;
+    margin-bottom:20px;
+}
+.hero p{
+    margin-bottom:30px;
+    color:#ddd;
+}
+.buttons button{
+    padding:12px 25px;
+    margin-right:15px;
+    border:1px solid white;
+    background:transparent;
+    color:white;
+    cursor:pointer;
+    transition:0.3s;
+}
+.buttons button:hover{
+    background:transparent;
+    color:black;
+}
+.stats{
+    margin-top:40px;
+    display:flex;
+    gap:40px;
+}
+.stat h3{
+    font-size:22px;
+}
+.stat p{
+    font-size:12px;
+    color:#ccc;
+}
+</style>
+</head>
+<body>
+<header>
+    <div class="logo">LUXE</div>
+        <a href="#">Femme</a>
+        <a href="#">homme</a>
+        <a href="#">Accessoires</a>
+        <a href="#">Nouveautés</a>
+        <a href="#">recherche</a>
+    
+</header>
+<section class="hero">
+    <div class="hero-content">
+        <h1>Le Style,<br>Réinventé</h1>
+        <p>
+            Découvrez notre nouvelle collection exclusive.
+            Des pièces intemporelles pour un style raffiné au quotidien.
+        </p>
+        <div class="buttons">
+            <button>Explorer la collection</button>
+            <button>Nouveautés</button>
+        </div>
+        <div class="stats">
+            <div class="stat">
+                <h3>2K+</h3>
+                <p>Produits</p>
+            </div>
+            <div class="stat">
+                <h3>98%</h3>
+                <p>Satisfaction</p>
+            </div>
+            <div class="stat">
+                <h3>50+</h3>
+                <p>Marques</p>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
